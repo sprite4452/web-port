@@ -1,0 +1,397 @@
+body {
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+    font-weight: 300; 
+    font-family: "Sarabun", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 60%; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.profilename {
+    font-size: 34px;
+    color: #282c47;
+    text-transform: uppercase;
+}
+
+.about_section {
+    width: 100%;
+    background-image: url(../images/services-bg.png);
+    background-size: 100%; 
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.about_section .container {
+    max-width: 60%; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.navbar {
+    margin: 50px 60px 100px -30px;
+    text-align: left;
+    font-size: 18px;
+    color: #414141;
+    text-transform: uppercase;
+    font-family: "Sarabun", sans-serif;
+}
+
+.navbar a,
+.navbar b {
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s, font-weight 0.3s; 
+}
+
+.navbar a:hover,
+.navbar b:hover {
+    color: hsl(11, 69%, 31%); 
+    font-weight: bold; 
+}
+
+.contact_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    padding:  15px;
+}
+.contact_text i {
+    margin-right: 10px;
+}
+
+.profilepic {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%; 
+}
+
+.col-md-8 {
+    max-width: 60%;
+    padding-left: 15px;
+}
+.col-md-4 {
+    
+    text-align: right; 
+}
+
+.fb_bt {
+    width: 50px; 
+    height: 50px; 
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #3b5998; 
+    
+}
+
+.fb_bt a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.fb_bt i {
+    color: white;
+}
+
+.fb_bt:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ig_bt {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(20deg, #f9ce34,  #ee2a7b ,  #6228d7);
+}
+
+.ig_bt a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.ig_bt i {
+    color: white;
+    font-size: 24px;
+}
+
+.ig_bt:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.gh_bt {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background:#020202
+}
+
+.gh_bt a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.gh_bt i {
+    color: white;
+    font-size: 24px;
+}
+
+.gh_bt:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bold_center {
+    
+    width: 100%;
+    font-size: 34px;
+    color: #060606;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topic_text {
+    width: 100%;
+    
+    font-size: 20px;
+    color: #060606;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skill_section {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto; /* จัดกลางโดยอัตโนมัติ */
+    
+}
+
+.row {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    
+    margin-top: 20px;/* ระยะห่างระหว่างหัวข้อและกล่อง */
+}
+
+.col-lg-4 {
+    flex: 0 0 30%; 
+    margin-bottom: 0 5px;
+    margin-left: 20px; 
+}
+.icon_1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.box_text {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.clogo{
+    filter: brightness(0) invert(1);
+    width: 50px;
+    height: 50px;
+}
+.arduinologo{
+    filter: brightness(0) invert(1);
+    width: 45px;
+    height: 50px;
+}
+.box_html {
+    width: 100%;
+    float: left;
+    background-color: hsl(208, 19%, 37%);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_html:hover{
+    background-color: hsl(36, 100%, 47%);
+}
+.box_python {
+    width: 100%;
+    float: left;
+    background-color: hsl(208, 19%, 37%);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_python:hover{
+    background-color: hsl(221, 50%, 54%);
+}
+.box_c {
+    width: 100%;
+    float: left;
+    background-color: hsl(208, 19%, 37%);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_c:hover{
+    background-color: hsl(308, 100%, 34%);
+}
+
+.box_iot {
+    width: 100%;
+    float: left;
+    background-color: hsl(208, 19%, 37%);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_iot:hover{
+    background-color: rgb(50, 219, 211);
+}
+.box_cefr {
+    width: 100%;
+    float: left;
+    background-color: hsl(208, 19%, 37%);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_cefr:hover{
+    background-color: hwb(106 5% 25%);
+}
+
+.footer_section{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+    background-color: #121212;
+    height: auto;
+}
+
+.endtext {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.end {
+    width: 60%;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+    margin-top: 55px;
+    text-align: center;
+}
+.end_ {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.card-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin: 0; 
+    gap: 50px;
+    
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    width: 1200px; 
+    align-items: center;
+}
+
+.card-img {
+    width: 300px; 
+    height: 250px; 
+    object-fit: cover; 
+    padding: 20px;
+}
+
+.card-content {
+    
+    flex: 1;
+}
+
+.card-title {
+    font-size: 25px;
+    margin: 0 0 5px; 
+}
+.card-date{
+    color: #797979;
+    margin: 0 0 5px; 
+    font-weight: 500;
+}
+
+
+.divider {
+    border-left: 1px solid #ccc;
+    height: 250px;
+    
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; 
+    
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.project_text {
+    text-align: center;
+}
